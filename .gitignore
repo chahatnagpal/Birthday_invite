@@ -1,0 +1,9 @@
+# Temporary test captures
+*.png
+*.jpg
+*.mp4
+*.py
+pin*.html
+live_sample.html
+.vscode/
+.idea/

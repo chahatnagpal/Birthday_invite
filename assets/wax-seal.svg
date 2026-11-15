@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" width="100%" height="100%">
+  <defs>
+    <!-- Wax Color Gradients -->
+    <radialGradient id="waxBase" cx="45%" cy="40%" r="60%">
+      <stop offset="0%" stop-color="#fff8ea" />
+      <stop offset="25%" stop-color="#e8d5b2" />
+      <stop offset="60%" stop-color="#c9aa73" />
+      <stop offset="85%" stop-color="#a48248" />
+      <stop offset="100%" stop-color="#7a5d2b" />
+    </radialGradient>
+    <radialGradient id="waxInner" cx="40%" cy="35%" r="65%">
+      <stop offset="0%" stop-color="#fdf4df" />
+      <stop offset="40%" stop-color="#dcc18f" />
+      <stop offset="85%" stop-color="#af8d4f" />
+      <stop offset="100%" stop-color="#7d5f29" />
+    </radialGradient>
+    <linearGradient id="embossHighlight" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#ffffff" stop-opacity="0.8"/>
+      <stop offset="50%" stop-color="#dfc495" stop-opacity="0.2"/>
+      <stop offset="100%" stop-color="#553f18" stop-opacity="0.7"/>
+    </linearGradient>
+    <filter id="waxShadow" x="-25%" y="-20%" width="150%" height="150%">
+      <feDropShadow dx="0" dy="5" stdDeviation="4" flood-color="#0e1724" flood-opacity="0.45" />
+      <feDropShadow dx="0" dy="1" stdDeviation="1" flood-color="#000000" flood-opacity="0.3" />
+    </filter>
+    <filter id="stampBevel">
+      <feGaussianBlur in="SourceAlpha" stdDeviation="1.2" result="blur"/>
+      <feOffset in="blur" dx="-1" dy="-1" result="offset1"/>
+      <feOffset in="blur" dx="1" dy="1" result="offset2"/>
+      <feComposite in="offset1" in2="offset2" operator="out" result="highlight"/>
+    </filter>
+  </defs>
+
+  <!-- Wax Seal Body with realistic organic dripped edge -->
+  <g filter="url(#waxShadow)">
+    <path d="M60 8 C76 7 88 14 97 22 C108 32 113 46 112 60 C111 74 105 88 95 98 C84 108 72 112 58 111 C42 110 30 105 20 94 C9 83 6 70 8 55 C10 40 18 27 30 18 C40 10 48 9 60 8 Z" fill="url(#waxBase)" />
+    <!-- Secondary drip organic layer -->
+    <path d="M60 12 C74 11 85 17 93 25 C102 34 107 46 106 58 C105 70 100 82 91 91 C81 100 70 104 57 103 C43 102 32 97 23 88 C14 78 11 67 13 54 C15 41 22 29 33 21 C41 14 49 13 60 12 Z" fill="url(#waxBase)" opacity="0.9" />
+
+    <!-- Inner Stamp Ring Depression -->
+    <circle cx="60" cy="60" r="38" fill="url(#waxInner)" stroke="#8d6b2c" stroke-width="1.2" />
+    <circle cx="60" cy="60" r="35" fill="none" stroke="url(#embossHighlight)" stroke-width="1" stroke-dasharray="4,2"/>
+
+    <!-- Center Crest: Little Crown & Monogram K -->
+    <g transform="translate(0, -3)">
+      <!-- Crown -->
+      <path d="M51 45 L48 50 L54 48 L60 41 L66 48 L72 50 L69 45 L74 53 L46 53 Z" fill="url(#embossHighlight)" />
+      <circle cx="60" cy="40" r="1.5" fill="#fff" />
+      <circle cx="48" cy="49" r="1.2" fill="#fff" />
+      <circle cx="72" cy="49" r="1.2" fill="#fff" />
+      <!-- Monogram 'K' -->
+      <text x="60" y="76" font-family="'Cinzel', 'Playfair Display', serif" font-size="25" font-weight="700" fill="#674b1e" text-anchor="middle" filter="drop-shadow(0px -1px 0px rgba(255,255,255,0.7)) drop-shadow(0px 1px 1px rgba(0,0,0,0.5))">K</text>
+      <!-- "1" -->
+      <text x="60" y="87" font-family="'Montserrat', sans-serif" font-size="7" font-weight="800" fill="#583f18" text-anchor="middle" letter-spacing="1.5" filter="drop-shadow(0px -0.5px 0px rgba(255,255,255,0.6))">★ 1 YEAR ★</text>
+    </g>
+
+    <!-- Top glossy sheen -->
+    <path d="M34 25 C45 18 68 18 84 26 C75 22 55 21 39 27 C36 28 34 26 34 25 Z" fill="#ffffff" opacity="0.55" />
+  </g>
+</svg>

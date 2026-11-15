@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 80 160" width="100%" height="100%">
+  <defs>
+    <linearGradient id="lanternGold" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#fff4d0" />
+      <stop offset="40%" stop-color="#dfbd78" />
+      <stop offset="80%" stop-color="#a47f38" />
+      <stop offset="100%" stop-color="#694d1b" />
+    </linearGradient>
+    <radialGradient id="lampGlow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#fffdf0" />
+      <stop offset="30%" stop-color="#ffea9f" stop-opacity="0.9" />
+      <stop offset="70%" stop-color="#f59e0b" stop-opacity="0.4" />
+      <stop offset="100%" stop-color="#d97706" stop-opacity="0" />
+    </radialGradient>
+    <filter id="lanternGlow" x="-50%" y="-50%" width="200%" height="200%">
+      <feDropShadow dx="0" dy="4" stdDeviation="6" flood-color="#f59e0b" flood-opacity="0.4" />
+    </filter>
+  </defs>
+
+  <!-- Hanging Chain -->
+  <line x1="40" y1="0" x2="40" y2="40" stroke="url(#lanternGold)" stroke-width="2" stroke-dasharray="3,2" />
+  
+  <!-- Hanging Loop -->
+  <circle cx="40" cy="42" r="5" fill="none" stroke="url(#lanternGold)" stroke-width="2"/>
+
+  <!-- Lantern Dome Top -->
+  <path d="M40 46 C25 54 20 62 18 68 L62 68 C60 62 55 54 40 46 Z" fill="url(#lanternGold)"/>
+  <rect x="22" y="66" width="36" height="4" rx="1.5" fill="url(#lanternGold)"/>
+
+  <!-- Lantern Glass Body Glow -->
+  <g filter="url(#lanternGlow)">
+    <polygon points="20,70 60,70 52,115 28,115" fill="url(#lampGlow)" opacity="0.95"/>
+    <circle cx="40" cy="92" r="14" fill="#ffffff" opacity="0.8"/>
+  </g>
+
+  <!-- Lantern Metal Cage Frames -->
+  <polygon points="20,70 60,70 52,115 28,115" fill="none" stroke="url(#lanternGold)" stroke-width="2.5"/>
+  <line x1="33" y1="70" x2="36" y2="115" stroke="url(#lanternGold)" stroke-width="1.5"/>
+  <line x1="47" y1="70" x2="44" y2="115" stroke="url(#lanternGold)" stroke-width="1.5"/>
+
+  <!-- Lantern Base -->
+  <path d="M26 115 L54 115 L48 126 L32 126 Z" fill="url(#lanternGold)"/>
+  <circle cx="40" cy="130" r="3" fill="url(#lanternGold)"/>
+  
+  <!-- Hanging Tassel / Crystal Drop -->
+  <path d="M40 133 L40 148" stroke="url(#lanternGold)" stroke-width="1.5"/>
+  <polygon points="40,148 43,154 40,160 37,154" fill="url(#lanternGold)"/>
+</svg>

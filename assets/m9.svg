@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 240" width="100%" height="100%">
+  <defs>
+    <linearGradient id="mGrad9" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#eff4fa"/>
+      <stop offset="100%" stop-color="#d6e3f3"/>
+    </linearGradient>
+  </defs>
+  <rect width="240" height="240" rx="16" fill="url(#mGrad9)"/>
+  <circle cx="120" cy="110" r="48" fill="#fdfcf8" filter="drop-shadow(0 4px 10px rgba(59,89,152,0.12))"/>
+  <!-- Little Wooden Rocking Horse -->
+  <g transform="translate(120, 110) scale(0.9)">
+    <path d="M-30 25 Q0 36 30 25" stroke="#3b5998" stroke-width="3" fill="none" stroke-linecap="round"/>
+    <!-- Horse Body -->
+    <path d="M-15 15 L-10 -5 L5 -5 L12 15" stroke="#dfbd78" stroke-width="3" fill="none" stroke-linecap="round"/>
+    <path d="M-12 -5 Q-14 -22 0 -22 Q12 -12 10 -5 Z" fill="#3b5998"/>
+    <!-- Mane & Ears -->
+    <path d="M-14 -18 L-8 -26 L-3 -16" fill="#dfbd78"/>
+    <circle cx="3" cy="-14" r="1.5" fill="#ffffff"/>
+    <path d="M-12 -2 Q-3 5 4 -2" stroke="#dfbd78" stroke-width="2" fill="none"/>
+  </g>
+  <text x="120" y="180" font-family="'Playfair Display', serif" font-size="14" font-weight="700" fill="#2c4869" text-anchor="middle">9 Months</text>
+  <text x="120" y="198" font-family="'Montserrat', sans-serif" font-size="9" font-weight="500" fill="#6a7d94" text-anchor="middle" letter-spacing="0.5">Crawling & Exploring Fast</text>
+</svg>

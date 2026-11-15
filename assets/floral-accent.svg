@@ -1,0 +1,82 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 240" width="100%" height="100%">
+  <defs>
+    <filter id="softShadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="2" dy="5" stdDeviation="4" flood-color="#1b2838" flood-opacity="0.25" />
+    </filter>
+    <linearGradient id="whitePetal" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#ffffff"/>
+      <stop offset="60%" stop-color="#f7f9fa"/>
+      <stop offset="100%" stop-color="#dce4ed"/>
+    </linearGradient>
+    <linearGradient id="whiteRoseInner" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#fcfbfa"/>
+      <stop offset="70%" stop-color="#ebd7bd"/>
+      <stop offset="100%" stop-color="#d4bf9c"/>
+    </linearGradient>
+    <linearGradient id="leafGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#829b7d"/>
+      <stop offset="60%" stop-color="#557053"/>
+      <stop offset="100%" stop-color="#3b5239"/>
+    </linearGradient>
+    <linearGradient id="goldStem" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#eed8a1"/>
+      <stop offset="100%" stop-color="#a4813f"/>
+    </linearGradient>
+  </defs>
+
+  <g filter="url(#softShadow)">
+    <!-- Stems & Foliage -->
+    <path d="M100 130 Q120 180 135 220" stroke="url(#goldStem)" stroke-width="2.5" fill="none" stroke-linecap="round"/>
+    <path d="M95 125 Q80 170 70 215" stroke="url(#goldStem)" stroke-width="2" fill="none" stroke-linecap="round"/>
+    <path d="M105 140 Q110 175 105 210" stroke="#557053" stroke-width="2.2" fill="none" stroke-linecap="round"/>
+
+    <!-- Eucalyptus & Sage Leaves -->
+    <path d="M70 140 C50 130 45 105 60 95 C75 85 85 110 70 140 Z" fill="url(#leafGrad)"/>
+    <path d="M125 150 C145 140 155 115 140 100 C125 85 115 120 125 150 Z" fill="url(#leafGrad)"/>
+    <path d="M110 80 C130 65 140 40 125 30 C110 20 100 50 110 80 Z" fill="url(#leafGrad)" opacity="0.85"/>
+    <path d="M85 75 C65 60 60 35 75 25 C90 15 100 45 85 75 Z" fill="url(#leafGrad)" opacity="0.85"/>
+
+    <!-- Baby's Breath / Gypsophila sprigs -->
+    <g fill="#ffffff" stroke="#c0c9cc" stroke-width="0.5">
+      <circle cx="55" cy="65" r="4.5"/>
+      <circle cx="48" cy="55" r="3.5"/>
+      <circle cx="62" cy="48" r="4"/>
+      <circle cx="140" cy="70" r="4.5"/>
+      <circle cx="152" cy="60" r="3.5"/>
+      <circle cx="138" cy="52" r="4"/>
+      <circle cx="98" cy="28" r="4"/>
+      <circle cx="106" cy="18" r="3"/>
+    </g>
+
+    <!-- Main White Rose / Ranunculus Bloom -->
+    <g transform="translate(100, 110)">
+      <!-- Outer Petals -->
+      <path d="M-35 -10 C-45 -35 -15 -45 0 -40 C15 -45 45 -35 35 -10 C45 15 25 38 0 40 C-25 38 -45 15 -35 -10 Z" fill="url(#whitePetal)" stroke="#e4e8ec" stroke-width="0.8"/>
+      <path d="M-28 -5 C-38 -25 -10 -35 0 -30 C10 -35 38 -25 28 -5 C35 15 18 30 0 32 C-18 30 -35 15 -28 -5 Z" fill="url(#whitePetal)"/>
+      
+      <!-- Intermediate Petals -->
+      <path d="M-20 -5 C-25 -20 -5 -25 0 -22 C5 -25 25 -20 20 -5 C22 10 12 22 0 24 C-12 22 -22 10 -20 -5 Z" fill="#ffffff" stroke="#ebd7bd" stroke-width="0.6"/>
+      
+      <!-- Core with Warm Ivory Glow -->
+      <ellipse cx="0" cy="0" rx="13" ry="11" fill="url(#whiteRoseInner)"/>
+      <path d="M-8 -2 C-8 -8 8 -8 8 -2 C8 5 -8 5 -8 -2 Z" fill="#cbb38d" opacity="0.75"/>
+      <circle cx="0" cy="-1" r="3.5" fill="#a4813f"/>
+    </g>
+
+    <!-- Secondary Rosebud -->
+    <g transform="translate(68, 80) scale(0.65)">
+      <path d="M-20 0 C-25 -20 0 -30 10 -25 C25 -20 25 5 15 18 C5 25 -15 20 -20 0 Z" fill="url(#whitePetal)" stroke="#e4e8ec" stroke-width="0.8"/>
+      <ellipse cx="2" cy="0" rx="9" ry="8" fill="url(#whiteRoseInner)"/>
+    </g>
+
+    <!-- Silk Satin Ribbon Bow -->
+    <g transform="translate(100, 160)">
+      <path d="M0 0 C-18 -18 -38 -8 -30 10 C-24 22 -5 12 0 0 Z" fill="#e9eff5" stroke="#3b5998" stroke-width="0.8"/>
+      <path d="M0 0 C18 -18 38 -8 30 10 C24 22 5 12 0 0 Z" fill="#e9eff5" stroke="#3b5998" stroke-width="0.8"/>
+      <circle cx="0" cy="1" r="4.5" fill="#3b5998"/>
+      <!-- Ribbon Tails -->
+      <path d="M-2 4 Q-12 25 -18 45 Q-14 38 -7 35 Q-5 45 -4 55" stroke="#3b5998" stroke-width="2" fill="none" stroke-linecap="round"/>
+      <path d="M2 4 Q12 25 18 45 Q14 38 7 35 Q5 45 4 55" stroke="#3b5998" stroke-width="2" fill="none" stroke-linecap="round"/>
+    </g>
+  </g>
+</svg>

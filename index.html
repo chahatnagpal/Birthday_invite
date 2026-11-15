@@ -1,0 +1,558 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0, viewport-fit=cover">
+  <title>Krishna Nagpal's 1st Birthday Party | 19 November 2026</title>
+  
+  <meta name="description" content="You are cordially invited to celebrate the 1st Birthday Party of Krishna Nagpal, beloved son of Yash Nagpal. Thursday, 19th November 2026 at 9:00 PM at Penchati Hall, Sonraki Bazar, Jacobabad.">
+  <meta property="og:title" content="Krishna Nagpal's 1st Birthday Party 🎂">
+  <meta property="og:description" content="Penchati Hall, Jacobabad | Thursday, 19th November 2026 at 9:00 PM. Tap to open your royal envelope invitation & scratch to reveal!">
+  <meta property="og:image" content="assets/wax-seal.svg">
+  <meta name="theme-color" content="#253d5a">
+
+  <!-- Google Web Fonts: Luxury Script, Royal Serifs & Modern Sans -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;600;700;800&family=Cormorant+Garamond:ital,wght@0,400;0,600;0,700;1,400;1,600&family=Montserrat:wght@300;400;500;600;700;800&family=Pinyon+Script&display=swap" rel="stylesheet">
+
+  <!-- Confetti Canvas Library -->
+  <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.9.3/dist/confetti.browser.min.js"></script>
+
+  <!-- Custom Stylesheet -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Ambient Light & Soft Foliage Texture -->
+  <div class="ambient-decor" aria-hidden="true"></div>
+
+  <!-- Main Luxury Invitation Canvas Container -->
+  <div class="device-wrapper">
+
+    <!-- ==========================================
+         TOP VIP HEADER
+         ========================================== -->
+    <header class="invitation-top-header">
+      <div class="top-badge-pill">
+        <span>💖</span> Invited by Cousin Sister Chahat <span>💖</span>
+      </div>
+      <h1 class="invitation-title-script">Krishna Nagpal</h1>
+      <p class="invitation-subtitle-serif">1st Birthday Celebration • Invited by Chahat</p>
+    </header>
+
+    <!-- ==========================================
+         STAGE 1: 3D ROYAL BLUE ENVELOPE WITH WAX SEAL
+         ========================================== -->
+    <section class="envelope-scene-container" id="envelopeScene" aria-label="Interactive Envelope">
+      
+      <!-- Envelope 3D Container -->
+      <div class="envelope-box" id="envelopeWrap" role="region" aria-label="Sealed Invitation Envelope">
+        
+        <!-- Interior Floral Damask Pattern Liner -->
+        <div class="envelope-liner" aria-hidden="true"></div>
+
+        <!-- The Arched Card preview inside the envelope that slides up -->
+        <div class="inner-card-preview" id="cardInside">
+          <img src="assets/crest.svg" alt="Royal Monogram Crest" class="card-crest-tiny">
+          <span class="card-h-small">Chahat's Special Invite</span>
+          <span class="card-name-script">Krishna</span>
+          <span class="card-h-small">1st Birthday Party • 19 Nov 2026</span>
+        </div>
+
+        <!-- Left, Right and Bottom Envelope Folds -->
+        <div class="envelope-left-fold" aria-hidden="true"></div>
+        <div class="envelope-right-fold" aria-hidden="true"></div>
+        <div class="envelope-bottom-fold" aria-hidden="true"></div>
+
+        <!-- Top Triangular Flap -->
+        <div class="envelope-top-flap" id="envelopeFlap" aria-hidden="true"></div>
+
+        <!-- Realistic 3D Golden Wax Seal Button -->
+        <button class="wax-seal-wrapper" id="waxSealBtn" type="button" aria-label="Tap to open the invitation envelope" title="Tap to open invitation">
+          <img src="assets/wax-seal.svg" alt="Wax Seal Monogram K" class="wax-seal-img">
+        </button>
+      </div>
+
+      <!-- Tap to Open Prompt -->
+      <div class="open-prompt-label" id="openPrompt">
+        <span class="finger-pulse">👉</span>
+        <span>Tap Wax Seal to Open</span>
+        <span class="finger-pulse">👈</span>
+      </div>
+
+      <!-- Personalized VIP Guest Pass -->
+      <div class="guest-pass-card">
+        <div class="guest-pass-label">Chahat Invites</div>
+        <div class="guest-pass-name" id="guestPassName">My Dearest Friend</div>
+        <div class="guest-pass-sub">A special VIP spot is waiting just for you! 💖</div>
+      </div>
+
+    </section>
+
+    <!-- ==========================================
+         STAGE 2: FULL INVITATION SECTION (EXPANDS ON OPEN)
+         ========================================== -->
+    <main class="full-invitation-section" id="fullInviteSection">
+
+      <!-- Action to re-seal envelope if desired -->
+      <div class="close-envelope-bar">
+        <button class="btn-secondary-pill" id="viewEnvelopeAgainBtn" type="button">
+          ✉ Re-seal Envelope
+        </button>
+      </div>
+
+      <!-- ==========================================
+           MAIN ROYAL ARCH INVITATION CARD (Inspired by Pin 2)
+           ========================================== -->
+      <div class="royal-card-container" id="invitationHeader">
+        <article class="royal-stationery-card arch-themed-card">
+          <div class="card-arch-top"></div>
+
+          <!-- Hanging Golden Lanterns beside the Arch -->
+          <div class="lantern-hanging lantern-left" aria-hidden="true">
+            <img src="assets/lantern.svg" alt="Royal Lantern">
+          </div>
+          <div class="lantern-hanging lantern-right" aria-hidden="true">
+            <img src="assets/lantern.svg" alt="Royal Lantern">
+          </div>
+
+          <!-- Top Floral Accent Bouquet -->
+          <div class="floral-badge-accent">
+            <img src="assets/floral-accent.svg" alt="White Floral Bouquet" style="width: 100%; height: 100%;">
+          </div>
+
+          <!-- Monogram Crest -->
+          <div class="royal-monogram-crest">
+            <img src="assets/crest.svg" alt="Krishna Royal Crest" style="width: 100%; height: 100%;">
+          </div>
+
+          <!-- Invitation Header Text -->
+          <p class="card-intro-text">You are Warmly Invited by Cousin Sister Chahat to Celebrate the</p>
+          <div class="birthday-announcement-callout">1st Birthday Party of</div>
+          
+          <h2 class="prince-name-main">KRISHNA NAGPAL</h2>
+          <p class="parentage-note">Beloved Son of Yash Nagpal • Little Baby Brother of Chahat</p>
+
+          <!-- Quote from Birthday Poster & Sister -->
+          <div class="invitation-special-quote">
+            “Your presence will make my baby brother's 1st Birthday even more special!<br>Can't wait to celebrate and party together! 💖”
+            <div style="margin-top: 4px; font-weight: 700; font-style: normal; color: var(--c-gold-dark); font-size: 0.85rem;">— Chahat Nagpal</div>
+          </div>
+
+          <!-- Decorative Flourish Divider -->
+          <img src="assets/divider.svg" alt="Ornamental Divider" class="decorative-divider">
+
+          <!-- Hosts Announcement Box -->
+          <div class="hosts-family-box">
+            <span class="hosts-pre-label">Awaiting Your Gracious Presence</span>
+            <div class="hosts-primary-name">Jawer Lal Nagpal & Yash Nagpal</div>
+            <div class="hosts-sub-names">With Lots of Love: Chahat Nagpal & Nagpal Family</div>
+          </div>
+
+        </article>
+      </div>
+
+      <!-- ==========================================
+           NEW FEATURE FROM PIN 2:
+           ✦ SCRATCH TO REVEAL THE DATE ✦
+           ========================================== -->
+      <section class="section-wrapper scratch-date-section" aria-label="Interactive Date Reveal">
+        <div class="section-header-centered">
+          <span class="section-tag">Interactive Feature</span>
+          <h3 class="section-title">The Date</h3>
+          <p class="scratch-instruction-sub">✦ Scratch to reveal the date ✦</p>
+        </div>
+
+        <!-- 3 Golden Scratch Cards -->
+        <div class="scratch-cards-grid">
+          
+          <!-- Card 1: Day -->
+          <div class="scratch-card-box" id="scratchCardDay" title="Scratch to reveal day">
+            <div class="scratch-revealed-content">
+              <span class="revealed-number">19</span>
+              <span class="revealed-label">DAY</span>
+            </div>
+            <canvas class="scratch-canvas" aria-label="Scratch foil for day"></canvas>
+          </div>
+
+          <!-- Card 2: Month -->
+          <div class="scratch-card-box" id="scratchCardMonth" title="Scratch to reveal month">
+            <div class="scratch-revealed-content">
+              <span class="revealed-number revealed-month-text">November</span>
+              <span class="revealed-label">MONTH</span>
+            </div>
+            <canvas class="scratch-canvas" aria-label="Scratch foil for month"></canvas>
+          </div>
+
+          <!-- Card 3: Year & Day of Week -->
+          <div class="scratch-card-box" id="scratchCardYear" title="Scratch to reveal year">
+            <div class="scratch-revealed-content">
+              <span class="revealed-number">2026</span>
+              <span class="revealed-label">THURSDAY</span>
+            </div>
+            <canvas class="scratch-canvas" aria-label="Scratch foil for year"></canvas>
+          </div>
+
+        </div>
+
+        <div style="text-align: center; margin-top: 14px;">
+          <button class="btn-reveal-quick" id="revealAllScratchBtn" type="button">
+            ✨ Scratch All / Reveal Date
+          </button>
+        </div>
+      </section>
+
+      <!-- ==========================================
+           TIME & VENUE HIGHLIGHT CARD
+           ========================================== -->
+      <section class="section-wrapper" aria-label="Event Timing & Venue Summary">
+        <div class="event-summary-banner">
+          <div class="banner-col">
+            <span class="summary-icon">🗓</span>
+            <span class="summary-label">Date</span>
+            <strong class="summary-val">19 Nov 2026</strong>
+            <span class="summary-sub">Thursday</span>
+          </div>
+          <div class="banner-divider"></div>
+          <div class="banner-col">
+            <span class="summary-icon">⏰</span>
+            <span class="summary-label">Timing</span>
+            <strong class="summary-val">9:00 PM</strong>
+            <span class="summary-sub">Sharp</span>
+          </div>
+          <div class="banner-divider"></div>
+          <div class="banner-col">
+            <span class="summary-icon">📍</span>
+            <span class="summary-label">Venue</span>
+            <strong class="summary-val">Penchati Hall</strong>
+            <span class="summary-sub">Jacobabad</span>
+          </div>
+        </div>
+      </section>
+
+      <!-- ==========================================
+           ROYAL ARCH TIMELINE (Inspired by Pin 2)
+           ========================================== -->
+      <section class="section-wrapper" aria-label="Celebration Timeline">
+        <div class="section-header-centered">
+          <span class="section-tag">Celebration Program</span>
+          <h3 class="section-title">Evening Timeline</h3>
+        </div>
+
+        <div class="royal-arch-timeline">
+          
+          <!-- Event 1 -->
+          <div class="arch-timeline-item">
+            <div class="arch-timeline-icon">
+              <img src="assets/arch-icon.svg" alt="Arch Icon" class="arch-svg-bg">
+              <span class="arch-inner-emoji">🍹</span>
+            </div>
+            <div class="arch-timeline-info">
+              <div class="arch-time-tag">9:00 PM</div>
+              <h4 class="arch-event-title">Guest Arrival & Grand Welcome</h4>
+              <p class="arch-event-desc">Warm reception of family & esteemed guests with royal sharbat and welcome drinks at Penchati Hall.</p>
+            </div>
+          </div>
+
+          <!-- Event 2: Cake Cutting Highlight -->
+          <div class="arch-timeline-item highlight-item">
+            <div class="arch-timeline-icon">
+              <img src="assets/arch-icon.svg" alt="Arch Icon" class="arch-svg-bg">
+              <span class="arch-inner-emoji">🎂</span>
+            </div>
+            <div class="arch-timeline-info">
+              <div class="arch-time-tag" style="background: rgba(182, 143, 68, 0.15); color: var(--c-gold-dark);">9:45 PM</div>
+              <h4 class="arch-event-title" style="color: var(--c-gold-dark);">1st Birthday Cake Cutting Ceremony</h4>
+              <p class="arch-event-desc">Gather around as little Krishna cuts his grand 1st birthday cake amidst cheers, family blessings, and joy!</p>
+            </div>
+          </div>
+
+          <!-- Event 3: Dinner -->
+          <div class="arch-timeline-item">
+            <div class="arch-timeline-icon">
+              <img src="assets/arch-icon.svg" alt="Arch Icon" class="arch-svg-bg">
+              <span class="arch-inner-emoji">🍽</span>
+            </div>
+            <div class="arch-timeline-info">
+              <div class="arch-time-tag">10:30 PM</div>
+              <h4 class="arch-event-title">Royal Dinner Feast & Festivities</h4>
+              <p class="arch-event-desc">A sumptuous celebration dinner featuring traditional delicacies, live barbecue, and festive desserts.</p>
+            </div>
+          </div>
+
+        </div>
+      </section>
+
+      <!-- ==========================================
+           VENUE & MAP CARD (PENCHATI HALL, JACOBABAD)
+           ========================================== -->
+      <section class="section-wrapper" aria-label="Venue Location">
+        <div class="venue-details-card">
+          <div class="venue-map-header">
+            <div class="venue-icon-circle">📍</div>
+            <span class="section-tag">Venue & Location</span>
+            <h3 class="venue-name-bold">PENCHATI HALL</h3>
+            <p class="venue-address-full">Sonraki Bazar, Jacobabad, Sindh, Pakistan</p>
+          </div>
+
+          <!-- Stylized Map Canvas -->
+          <div class="styled-map-canvas">
+            <div class="map-pin-pulse">
+              <div class="pin-bubble">Penchati Hall, Jacobabad</div>
+              <div class="pin-marker-dot"></div>
+            </div>
+          </div>
+
+          <!-- Venue Action Buttons -->
+          <div class="venue-btn-grid">
+            <button class="btn-primary-action" id="openMapsBtn" type="button">
+              🗺 Google Maps
+            </button>
+            <button class="btn-outline-action" id="copyAddressBtn" type="button">
+              📋 Copy Address
+            </button>
+          </div>
+
+          <div style="margin-top: 12px; display: flex; gap: 8px;">
+            <button class="btn-outline-action" id="btnGoogleCal" type="button" style="flex: 1; font-size: 0.72rem;">
+              📅 Google Calendar
+            </button>
+            <button class="btn-outline-action" id="btnIcsCal" type="button" style="flex: 1; font-size: 0.72rem;">
+              📥 Download .ICS
+            </button>
+          </div>
+        </div>
+      </section>
+
+      <!-- ==========================================
+           CIRCULAR BADGES: DRESS CODE & GIFTS
+           (EXACT DESIGN FROM THE PINTEREST VIDEO)
+           ========================================== -->
+      <section class="pinterest-circle-badge-section" aria-label="Event Details & Badges">
+        
+        <!-- Dress Code Badge Card -->
+        <div class="circle-badge-card">
+          <div class="round-floating-badge" aria-hidden="true">
+            <span>Dress</span>
+          </div>
+          <h4 class="badge-card-title">Dress Code</h4>
+          <p class="badge-card-desc">
+            We kindly invite our guests to dress in royal blue, soft pastel shades, or traditional Pakistani formal attire.
+          </p>
+
+          <!-- Swatches -->
+          <div class="color-swatches-row">
+            <div class="swatch-item">
+              <div class="swatch-circle" style="background: #1f364d;"></div>
+              <span>Navy</span>
+            </div>
+            <div class="swatch-item">
+              <div class="swatch-circle" style="background: #4a6fa5;"></div>
+              <span>Royal</span>
+            </div>
+            <div class="swatch-item">
+              <div class="swatch-circle" style="background: #dfbd78;"></div>
+              <span>Gold</span>
+            </div>
+            <div class="swatch-item">
+              <div class="swatch-circle" style="background: #fbf9f5; border-color: #d6ded2;"></div>
+              <span>Ivory</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Blessings & Gifts Badge Card -->
+        <div class="circle-badge-card">
+          <div class="round-floating-badge badge-gold" aria-hidden="true">
+            <span>Love</span>
+          </div>
+          <h4 class="badge-card-title">Blessings & Wishes</h4>
+          <p class="badge-card-desc">
+            Your heartfelt prayers and gracious presence are the greatest gift for little Krishna. No boxed gifts requested — only your warm smiles and blessings!
+          </p>
+          <img src="assets/divider.svg" alt="Divider" class="decorative-divider" style="max-width: 180px;">
+        </div>
+
+      </section>
+
+      <!-- ==========================================
+           LIVE COUNTDOWN TIMER (TARGET: 19 NOV 2026, 9:00 PM)
+           ========================================== -->
+      <section class="countdown-section-card" aria-label="Countdown to Event">
+        <div class="countdown-intro-script">The Celebration Begins In</div>
+        
+        <div class="countdown-digits-grid">
+          <div class="countdown-digit-box">
+            <span class="countdown-num" id="days">00</span>
+            <span class="countdown-unit">Days</span>
+          </div>
+          <span class="countdown-colon">:</span>
+          <div class="countdown-digit-box">
+            <span class="countdown-num" id="hours">00</span>
+            <span class="countdown-unit">Hours</span>
+          </div>
+          <span class="countdown-colon">:</span>
+          <div class="countdown-digit-box">
+            <span class="countdown-num" id="minutes">00</span>
+            <span class="countdown-unit">Mins</span>
+          </div>
+          <span class="countdown-colon">:</span>
+          <div class="countdown-digit-box">
+            <span class="countdown-num" id="seconds">00</span>
+            <span class="countdown-unit">Secs</span>
+          </div>
+        </div>
+
+        <p class="countdown-outro-serif">Thursday, 19th November 2026 • 9:00 PM</p>
+      </section>
+
+      <!-- ==========================================
+           INTERACTIVE FUN CHALLENGE:
+           ARE YOU COMING OR NOT? (YES OR NO)
+           ========================================== -->
+      <section class="rsvp-envelope-wrapper coming-game-section" id="rsvpSection" aria-label="Are You Coming Challenge">
+        <div class="rsvp-form-card-sheet coming-card-sheet">
+          
+          <div class="coming-game-header">
+            <span class="game-emoji-bounce">🎂🥺👉👈</span>
+            <h3 class="coming-game-title">Are you coming or not?</h3>
+            <p class="coming-game-subtitle">Chahat says there is only ONE correct answer for her friends! 😂</p>
+          </div>
+
+          <!-- The Interactive Arena -->
+          <div class="coming-arena-box">
+            
+            <div class="coming-btn-arena" id="comingBtnArena">
+              <!-- YES Button (The only responsive one that grows!) -->
+              <button type="button" class="btn-coming-yes" id="btnComingYes">
+                <span class="btn-yes-sparkle">🎉</span> YES! I'M COMING! 🥳
+              </button>
+
+              <!-- NO Button (The playful runaway dodge button) -->
+              <button type="button" class="btn-coming-no" id="btnComingNo">
+                NO 😢
+              </button>
+            </div>
+
+            <!-- Funny Status / Dodge message -->
+            <div class="coming-dodge-message" id="comingDodgeMsg">
+              Choose wisely... Chahat is watching! 👀
+            </div>
+
+          </div>
+
+          <!-- WhatsApp Direct message to Chahat -->
+          <div style="margin-top: 20px; text-align: center;">
+            <p style="font-size: 0.78rem; color: var(--c-text-secondary); margin-bottom: 8px;">
+              Already clicked YES? Let Chahat know on WhatsApp!
+            </p>
+            <button type="button" class="btn-whatsapp-rsvp" id="tellChahatWhatsAppBtn">
+              <span>💬 Tell Chahat on WhatsApp: “I'm 100% Coming!”</span>
+            </button>
+          </div>
+
+        </div>
+      </section>
+
+      <!-- ==========================================
+           WARM CLOSING & SISTER'S SIGNATURE
+           ========================================== -->
+      <footer class="invitation-footer-closing">
+        <p class="footer-script-signature">With Lots of Love & Excitement,</p>
+        <p class="footer-family-tag">Chahat Nagpal</p>
+        <p class="footer-family-sub-tag">Yash Nagpal, Jawer Lal Nagpal & Nagpal Family</p>
+        <p class="footer-location-sub">Penchati Hall, Sonraki Bazar, Jacobabad, Pakistan</p>
+        
+        <div style="margin-top: 18px;">
+          <button class="btn-secondary-pill" id="openShareModalBtn" type="button">
+            💌 Send Invite to Another Friend
+          </button>
+        </div>
+      </footer>
+
+    </main>
+
+    <!-- ==========================================
+         FLOATING ACTION BAR & MINI MUSIC PILL
+         ========================================== -->
+    <nav class="floating-quick-dock" aria-label="Quick Actions">
+      <button class="dock-btn" id="floatingMusicPill" type="button" title="Toggle celebration melody">
+        <span class="pill-music-disc">♫</span>
+        <span class="pill-music-state">Play Music</span>
+      </button>
+      <button class="dock-btn" id="floatingShareBtn" type="button" title="Share invite with friends">
+        <span>🔗</span> Share
+      </button>
+      <a href="#rsvpSection" class="dock-btn btn-rsvp-quick" title="Are you coming?">
+        <span>🎂</span> Coming?
+      </a>
+    </nav>
+
+  </div>
+
+  <!-- ==========================================
+       "YES! I'M COMING!" CELEBRATION MODAL
+       ========================================== -->
+  <div class="share-modal-overlay" id="yesSuccessModal" role="dialog" aria-modal="true" aria-labelledby="yesSuccessTitle">
+    <div class="share-modal-card yes-modal-card">
+      <button class="modal-close-btn" id="closeYesModal" type="button" aria-label="Close modal">&times;</button>
+      <div style="font-size: 3rem; margin-bottom: 6px;">🎉👶🎂</div>
+      <h3 class="share-modal-title" id="yesSuccessTitle" style="color: #166534; font-size: 1.4rem;">YAAAY! YOU'RE COMING!</h3>
+      <p class="share-modal-desc" style="font-size: 0.92rem; color: #222e3b; margin: 10px 0 16px;">
+        Chahat and little baby brother <strong>Krishna</strong> are SO excited to party with you! 💖
+      </p>
+
+      <div style="background: rgba(74, 111, 165, 0.08); border-radius: 14px; padding: 12px; margin-bottom: 18px; text-align: left; font-size: 0.82rem;">
+        <div>🗓 <strong>Date:</strong> Thursday, 19th November 2026</div>
+        <div style="margin: 4px 0;">⏰ <strong>Time:</strong> 9:00 PM Sharp</div>
+        <div>📍 <strong>Venue:</strong> Penchati Hall, Sonraki Bazar, Jacobabad</div>
+      </div>
+
+      <div style="display: flex; flex-direction: column; gap: 10px;">
+        <button class="btn-whatsapp-rsvp" id="modalWhatsAppConfirmBtn" type="button">
+          💬 Send "I'm Coming!" to Chahat on WhatsApp
+        </button>
+        <button class="btn-outline-action" id="modalAddToCalBtn" type="button">
+          📅 Add to My Calendar
+        </button>
+      </div>
+    </div>
+  </div>
+
+  </div>
+
+  <!-- ==========================================
+       SHARE MODAL (FOR YASH NAGPAL & GUESTS)
+       ========================================== -->
+  <div class="share-modal-overlay" id="shareModal" role="dialog" aria-modal="true" aria-labelledby="shareModalTitle">
+    <div class="share-modal-card">
+      <button class="modal-close-btn" id="closeShareModal" type="button" aria-label="Close modal">&times;</button>
+      <h3 class="share-modal-title" id="shareModalTitle">Personalize & Share</h3>
+      <p class="share-modal-desc">
+        Enter a guest or family name to generate a custom royal envelope invitation tailored specifically for them!
+      </p>
+
+      <div class="rsvp-field-group">
+        <label for="shareGuestInput">Guest Name</label>
+        <input type="text" id="shareGuestInput" class="rsvp-input" placeholder="e.g. Uncle Ramesh / Dr. Mohan">
+      </div>
+
+      <div style="display: flex; flex-direction: column; gap: 10px; margin-top: 14px;">
+        <button class="btn-primary-action" id="shareWhatsAppDirectBtn" type="button">
+          💬 Send via WhatsApp
+        </button>
+        <button class="btn-outline-action" id="copyShareLinkBtn" type="button">
+          📋 Copy Invitation Link
+        </button>
+      </div>
+    </div>
+  </div>
+
+  <!-- Toast Notification Bubble -->
+  <div class="toast-bubble" id="toast" role="status" aria-live="polite"></div>
+
+  <!-- Application Logic -->
+  <script src="app.js"></script>
+</body>
+</html>

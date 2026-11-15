@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 240" width="100%" height="100%">
+  <defs>
+    <linearGradient id="mGrad1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#edf4fb"/>
+      <stop offset="100%" stop-color="#d6e4f2"/>
+    </linearGradient>
+    <linearGradient id="cloudGold" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#fff8ea"/>
+      <stop offset="100%" stop-color="#e8cf99"/>
+    </linearGradient>
+  </defs>
+  <rect width="240" height="240" rx="16" fill="url(#mGrad1)"/>
+  <!-- Sleeping Moon & Stars Motif -->
+  <circle cx="120" cy="110" r="48" fill="#fdfcf8" filter="drop-shadow(0 4px 10px rgba(59,89,152,0.12))"/>
+  <!-- Gentle Crescent Moon -->
+  <path d="M128 72 C110 72 96 86 96 104 C96 122 110 136 128 136 C136 136 143 133 148 128 C135 127 124 116 124 102 C124 88 135 77 148 76 C143 73 136 72 128 72 Z" fill="#dfbd78"/>
+  <!-- Stars -->
+  <polygon points="100,75 102,80 107,81 103,84 104,89 100,86 96,89 97,84 93,81 98,80" fill="#dfbd78"/>
+  <polygon points="145,108 146,112 150,113 147,115 148,119 145,117 142,119 143,115 140,113 144,112" fill="#dfbd78"/>
+  <polygon points="88,115 89,118 92,119 90,121 91,124 88,122 85,124 86,121 84,119 87,118" fill="#3b5998" opacity="0.6"/>
+  <!-- Text -->
+  <text x="120" y="180" font-family="'Playfair Display', serif" font-size="14" font-weight="700" fill="#2c4869" text-anchor="middle">1 Month</text>
+  <text x="120" y="198" font-family="'Montserrat', sans-serif" font-size="9" font-weight="500" fill="#6a7d94" text-anchor="middle" letter-spacing="0.5">Sweet Dreams & First Smile</text>
+</svg>

@@ -1,0 +1,74 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 300" width="100%" height="100%">
+  <defs>
+    <linearGradient id="goldGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#fdf3d8" />
+      <stop offset="25%" stop-color="#dfbd78" />
+      <stop offset="50%" stop-color="#b68f44" />
+      <stop offset="75%" stop-color="#dfbd78" />
+      <stop offset="100%" stop-color="#8d6b2c" />
+    </linearGradient>
+    <linearGradient id="softGold" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#b68f44" />
+      <stop offset="50%" stop-color="#f5e5be" />
+      <stop offset="100%" stop-color="#b68f44" />
+    </linearGradient>
+    <filter id="royalShadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="2" stdDeviation="2" flood-color="#000000" flood-opacity="0.15" />
+    </filter>
+  </defs>
+
+  <g filter="url(#royalShadow)">
+    <!-- Ornate Crown -->
+    <path d="M125 72 L115 90 L135 83 L150 62 L165 83 L185 90 L175 72 L192 100 L108 100 Z" fill="url(#goldGrad)" />
+    <!-- Crown Jewels / Pearls -->
+    <circle cx="150" cy="58" r="4.5" fill="#fdf3d8" stroke="#b68f44" stroke-width="1"/>
+    <circle cx="115" cy="86" r="3.5" fill="#fdf3d8" stroke="#b68f44" stroke-width="1"/>
+    <circle cx="185" cy="86" r="3.5" fill="#fdf3d8" stroke="#b68f44" stroke-width="1"/>
+    <circle cx="125" cy="69" r="3.5" fill="#fdf3d8" stroke="#b68f44" stroke-width="1"/>
+    <circle cx="175" cy="69" r="3.5" fill="#fdf3d8" stroke="#b68f44" stroke-width="1"/>
+    <rect x="110" y="98" width="80" height="7" rx="3" fill="url(#softGold)"/>
+    <circle cx="130" cy="101.5" r="2" fill="#3b5998"/>
+    <circle cx="150" cy="101.5" r="2.5" fill="#b68f44"/>
+    <circle cx="170" cy="101.5" r="2" fill="#3b5998"/>
+
+    <!-- Left Laurel Wreath -->
+    <g fill="url(#goldGrad)">
+      <path d="M105 110 C90 125, 75 150, 75 180 C75 210, 95 235, 120 248 C115 240, 95 215, 95 180 C95 150, 105 130, 115 115 Z"/>
+      <!-- Leaves -->
+      <path d="M82 135 C68 132, 60 120, 68 115 C75 110, 85 125, 82 135 Z"/>
+      <path d="M72 158 C58 155, 52 142, 60 137 C67 132, 75 148, 72 158 Z"/>
+      <path d="M68 185 C54 185, 48 172, 57 167 C65 162, 72 176, 68 185 Z"/>
+      <path d="M73 212 C60 215, 56 202, 66 195 C75 190, 80 203, 73 212 Z"/>
+      <path d="M88 234 C76 240, 70 230, 80 220 C90 213, 93 227, 88 234 Z"/>
+      <path d="M109 250 C98 258, 93 249, 103 238 C112 230, 115 243, 109 250 Z"/>
+    </g>
+
+    <!-- Right Laurel Wreath -->
+    <g fill="url(#goldGrad)">
+      <path d="M195 110 C210 125, 225 150, 225 180 C225 210, 205 235, 180 248 C185 240, 205 215, 205 180 C205 150, 195 130, 185 115 Z"/>
+      <!-- Leaves -->
+      <path d="M218 135 C232 132, 240 120, 232 115 C225 110, 215 125, 218 135 Z"/>
+      <path d="M228 158 C242 155, 248 142, 240 137 C233 132, 225 148, 228 158 Z"/>
+      <path d="M232 185 C246 185, 252 172, 243 167 C235 162, 228 176, 232 185 Z"/>
+      <path d="M227 212 C240 215, 244 202, 234 195 C225 190, 220 203, 227 212 Z"/>
+      <path d="M212 234 C224 240, 230 230, 220 220 C210 213, 207 227, 212 234 Z"/>
+      <path d="M191 250 C202 258, 207 249, 197 238 C188 230, 185 243, 191 250 Z"/>
+    </g>
+
+    <!-- Inner Oval Border -->
+    <ellipse cx="150" cy="175" rx="42" ry="52" fill="none" stroke="url(#goldGrad)" stroke-width="1.8" stroke-dasharray="3,2"/>
+    <ellipse cx="150" cy="175" rx="38" ry="48" fill="#fbf9f5" stroke="url(#goldGrad)" stroke-width="1"/>
+
+    <!-- Monogram K for Krishna -->
+    <text x="150" y="196" font-family="'Cinzel', 'Playfair Display', 'Cormorant Garamond', serif" font-size="54" font-weight="700" fill="url(#goldGrad)" text-anchor="middle" letter-spacing="1">K</text>
+    <text x="150" y="140" font-family="'Montserrat', sans-serif" font-size="9" font-weight="600" fill="#3b5998" text-anchor="middle" letter-spacing="2">PRINCE</text>
+
+    <!-- Bottom Ribbon / Banner -->
+    <g transform="translate(0, 15)">
+      <path d="M100 245 L75 255 L85 240 L75 225 L102 233 Z" fill="#9e7c37"/>
+      <path d="M200 245 L225 255 L215 240 L225 225 L198 233 Z" fill="#9e7c37"/>
+      <path d="M92 235 Q150 248 208 235 L204 256 Q150 268 96 256 Z" fill="url(#goldGrad)"/>
+      <text x="150" y="250" font-family="'Montserrat', sans-serif" font-size="8.5" font-weight="700" fill="#243447" text-anchor="middle" letter-spacing="2">1ST BIRTHDAY</text>
+    </g>
+  </g>
+</svg>

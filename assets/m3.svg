@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 240" width="100%" height="100%">
+  <defs>
+    <linearGradient id="mGrad3" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#f0f5fc"/>
+      <stop offset="100%" stop-color="#dbe6f4"/>
+    </linearGradient>
+  </defs>
+  <rect width="240" height="240" rx="16" fill="url(#mGrad3)"/>
+  <circle cx="120" cy="110" r="48" fill="#fdfcf8" filter="drop-shadow(0 4px 10px rgba(59,89,152,0.12))"/>
+  <!-- Cute Rattle & Hot Air Balloon -->
+  <g transform="translate(120, 105) scale(0.85)">
+    <!-- Balloon -->
+    <path d="M0 -35 C-22 -35 -30 -15 -18 10 C-10 24 -4 28 0 30 C4 28 10 24 18 10 C30 -15 22 -35 0 -35 Z" fill="#3b5998"/>
+    <path d="M0 -35 C-10 -35 -14 -15 -8 10 C-4 24 -2 28 0 30 C2 28 4 24 8 10 C14 -15 10 -35 0 -35 Z" fill="#dfbd78"/>
+    <!-- Basket -->
+    <line x1="-5" y1="33" x2="-7" y2="42" stroke="#b68f44" stroke-width="1.5"/>
+    <line x1="5" y1="33" x2="7" y2="42" stroke="#b68f44" stroke-width="1.5"/>
+    <rect x="-9" y="42" width="18" height="12" rx="2" fill="#d9aa55"/>
+  </g>
+  <text x="120" y="180" font-family="'Playfair Display', serif" font-size="14" font-weight="700" fill="#2c4869" text-anchor="middle">3 Months</text>
+  <text x="120" y="198" font-family="'Montserrat', sans-serif" font-size="9" font-weight="500" fill="#6a7d94" text-anchor="middle" letter-spacing="0.5">Exploring & Laughing Out Loud</text>
+</svg>

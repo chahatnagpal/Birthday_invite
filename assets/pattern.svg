@@ -1,0 +1,69 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="400" height="400" viewBox="0 0 400 400" fill="none">
+  <defs>
+    <style>
+      .fl { fill: #385a82; opacity: 0.85; }
+      .fl-light { fill: #5c7fa8; opacity: 0.65; }
+      .fl-pale { fill: #8eaecf; opacity: 0.45; }
+      .fl-stroke { stroke: #2b476b; stroke-width: 1.2; stroke-linecap: round; stroke-linejoin: round; fill: none; }
+      .bg-tint { fill: #f8fbfe; }
+    </style>
+  </defs>
+  <rect width="400" height="400" class="bg-tint"/>
+  
+  <!-- Central Bouquet Motifs -->
+  <g transform="translate(100, 100) scale(0.7)">
+    <!-- Central Rose / Peony -->
+    <path d="M100 80 C80 60, 50 70, 50 100 C50 130, 80 150, 100 160 C120 150, 150 130, 150 100 C150 70, 120 60, 100 80 Z" class="fl-light"/>
+    <path d="M100 88 C88 72, 65 80, 65 102 C65 124, 88 138, 100 146 C112 138, 135 124, 135 102 C135 80, 112 72, 100 88 Z" class="fl"/>
+    <path d="M100 95 C93 85, 78 90, 78 104 C78 118, 93 128, 100 133 C107 128, 122 118, 122 104 C122 90, 107 85, 100 95 Z" class="fl-pale"/>
+    
+    <!-- Leaves and tendrils -->
+    <path d="M50 100 C20 90, 10 60, 30 40 C45 25, 65 50, 50 100 Z" class="fl"/>
+    <path d="M40 70 C25 60, 20 45, 30 40" class="fl-stroke"/>
+    <path d="M150 100 C180 90, 190 60, 170 40 C155 25, 135 50, 150 100 Z" class="fl"/>
+    <path d="M160 70 C175 60, 180 45, 170 40" class="fl-stroke"/>
+
+    <!-- Buds -->
+    <circle cx="25" cy="35" r="7" class="fl-light"/>
+    <circle cx="175" cy="35" r="7" class="fl-light"/>
+    <circle cx="100" cy="40" r="9" class="fl"/>
+    <path d="M100 49 Q100 70 100 80" class="fl-stroke"/>
+    
+    <!-- Bottom foliage -->
+    <path d="M100 160 C90 185, 60 200, 45 190 C30 180, 55 160, 100 160 Z" class="fl-light"/>
+    <path d="M100 160 C110 185, 140 200, 155 190 C170 180, 145 160, 100 160 Z" class="fl-light"/>
+    <path d="M100 160 Q100 210 100 225" class="fl-stroke"/>
+  </g>
+
+  <!-- Corner Flourishes Repeatable -->
+  <g transform="translate(-20, -20) scale(0.6)">
+    <path d="M50 100 C20 90, 10 60, 30 40 C45 25, 65 50, 50 100 Z" class="fl"/>
+    <circle cx="30" cy="40" r="8" class="fl-light"/>
+    <path d="M100 50 C90 20, 60 10, 40 30 C25 45, 50 65, 100 50 Z" class="fl-pale"/>
+  </g>
+  <g transform="translate(320, -20) scale(0.6)">
+    <path d="M50 100 C80 90, 90 60, 70 40 C55 25, 35 50, 50 100 Z" class="fl"/>
+    <circle cx="70" cy="40" r="8" class="fl-light"/>
+  </g>
+  <g transform="translate(-20, 320) scale(0.6)">
+    <path d="M50 50 C20 60, 10 90, 30 110 C45 125, 65 100, 50 50 Z" class="fl"/>
+    <circle cx="30" cy="110" r="8" class="fl-light"/>
+  </g>
+  <g transform="translate(320, 320) scale(0.6)">
+    <path d="M50 50 C80 60, 90 90, 70 110 C55 125, 35 100, 50 50 Z" class="fl"/>
+    <circle cx="70" cy="110" r="8" class="fl-light"/>
+  </g>
+  
+  <!-- Fine botanical vines -->
+  <path d="M0 200 C50 180, 70 220, 120 200 C150 190, 170 210, 200 200 C230 190, 250 210, 280 200 C330 180, 350 220, 400 200" class="fl-stroke" opacity="0.4"/>
+  <circle cx="60" cy="190" r="3" class="fl"/>
+  <circle cx="140" cy="205" r="3.5" class="fl-light"/>
+  <circle cx="260" cy="195" r="3" class="fl"/>
+  <circle cx="340" cy="205" r="3.5" class="fl-light"/>
+
+  <path d="M200 0 C180 50, 220 70, 200 120 C190 150, 210 170, 200 200 C190 230, 210 250, 200 280 C180 330, 220 350, 200 400" class="fl-stroke" opacity="0.4"/>
+  <circle cx="190" cy="60" r="3" class="fl"/>
+  <circle cx="205" cy="140" r="3.5" class="fl-light"/>
+  <circle cx="195" cy="260" r="3" class="fl"/>
+  <circle cx="205" cy="340" r="3.5" class="fl-light"/>
+</svg>

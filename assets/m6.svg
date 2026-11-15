@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 240" width="100%" height="100%">
+  <defs>
+    <linearGradient id="mGrad6" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#eff4fa"/>
+      <stop offset="100%" stop-color="#d6e3f3"/>
+    </linearGradient>
+  </defs>
+  <rect width="240" height="240" rx="16" fill="url(#mGrad6)"/>
+  <circle cx="120" cy="110" r="48" fill="#fdfcf8" filter="drop-shadow(0 4px 10px rgba(59,89,152,0.12))"/>
+  <!-- Cute Teddy Bear with Crown -->
+  <g transform="translate(120, 110) scale(0.85)">
+    <!-- Ears -->
+    <circle cx="-16" cy="-16" r="9" fill="#c49a6c"/>
+    <circle cx="-16" cy="-16" r="5" fill="#f0d5b5"/>
+    <circle cx="16" cy="-16" r="9" fill="#c49a6c"/>
+    <circle cx="16" cy="-16" r="5" fill="#f0d5b5"/>
+    <!-- Head -->
+    <circle cx="0" cy="0" r="22" fill="#c49a6c"/>
+    <!-- Muzzle -->
+    <ellipse cx="0" cy="6" rx="9" ry="7" fill="#f0d5b5"/>
+    <ellipse cx="0" cy="3" rx="4" ry="2.5" fill="#443224"/>
+    <path d="M0 5.5 L0 9 M-3 9 Q0 11 3 9" stroke="#443224" stroke-width="1.2" fill="none"/>
+    <!-- Eyes -->
+    <circle cx="-7" cy="-2" r="2.2" fill="#2d2218"/>
+    <circle cx="7" cy="-2" r="2.2" fill="#2d2218"/>
+    <!-- Baby Prince Crown -->
+    <path d="M-8 -21 L-12 -30 L-4 -26 L0 -33 L4 -26 L12 -30 L8 -21 Z" fill="#dfbd78"/>
+  </g>
+  <text x="120" y="180" font-family="'Playfair Display', serif" font-size="14" font-weight="700" fill="#2c4869" text-anchor="middle">6 Months</text>
+  <text x="120" y="198" font-family="'Montserrat', sans-serif" font-size="9" font-weight="500" fill="#6a7d94" text-anchor="middle" letter-spacing="0.5">Sitting Up & Babbling Away</text>
+</svg>
